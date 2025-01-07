@@ -7,11 +7,11 @@ main() {
 	lower = 0;
 	upper = 300;
 	step = 20;
-	printf("Fahrenheit \tCelsius\n");
+	printf("Fahrenheit      Celsius\n");
 	fahr = lower;
 	while (fahr <= upper) {
 		cels = 5 * (fahr - 32) / 9;
-		printf("%d\t\t%d\n", fahr, cels);
+		printf("%3d               %3d\n", fahr, cels);
 		fahr = fahr + step;
 	}
 }
