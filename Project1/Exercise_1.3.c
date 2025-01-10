@@ -1,7 +1,7 @@
 //1.3 Modify the temperature coversion program to print a heading above the table
 #include<stdio.h>
 
-main() {
+Main1_3() {
 	int fahr, cels, lower, upper, step;
 	lower = 0;
 	upper = 300;

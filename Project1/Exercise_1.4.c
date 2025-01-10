@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int main() {
+int Main1_4() {
 	int cels, fahr, lower, upper, step;
 	lower = 0;
 	upper = 300;
